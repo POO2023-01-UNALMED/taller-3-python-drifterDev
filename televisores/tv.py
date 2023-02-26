@@ -13,7 +13,7 @@ class TV:
     
     @staticmethod
     def setNumTV(num):
-        numTV=num
+        TV.numTV=num
     
 
     def getMarca(self):
