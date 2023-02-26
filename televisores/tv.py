@@ -6,10 +6,10 @@ class TV:
         self.canal=1
         self.volumen=1
         self.precio=500
-        self.numTV+=1
+        TV.setNumTV(TV.getNumTV()+1)
 
-    def getNumTV(self):
-        return self.numTV
+    def getNumTV():
+        return TV.numTV
     
     @staticmethod
     def setNumTV(num):
