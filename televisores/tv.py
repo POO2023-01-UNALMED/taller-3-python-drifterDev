@@ -8,11 +8,11 @@ class TV:
         self.precio=500
         self.numTV+=1
 
-    def getNumTv(self):
+    def getNumTV(self):
         return self.numTV
     
     @staticmethod
-    def setNumTv(self, numTV):
+    def setNumTV(self, numTV):
         self.numTV=numTV
     
 
